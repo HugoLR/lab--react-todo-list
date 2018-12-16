@@ -12,3 +12,96 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.todoapp--container {
+  display: flex;
+}
+
+.filters {
+  display: flex;;
+  flex-direction: column;
+  width: 30%;
+  height: 100vh;
+  justify-content: center;
+  background-color: #F9F7F9;
+}
+
+.filters input {
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+  background-color: #F9F7F9;
+  outline:0;
+}
+
+.filters button {
+  border: none;
+  text-align: left;
+  padding: 10px;
+  background-color: #F9F7F9;
+  cursor: pointer;
+}
+
+.filters button:hover {
+  background-color: #F3F1F3;
+}
+
+.filters button:focus {
+  outline:0;
+}
+
+.fa-plus {
+  margin-right: 10px;
+}
+
+.main {
+  width: 70%;
+}
+
+
+.main-search {
+  box-sizing: border-box;
+  padding: 50px;
+  width: 80%;
+  margin: 15px 0 0 10px;
+  font-size: 25px;
+  line-height: normal;
+}
+
+.dates {
+  margin-left: 15px;
+}
+
+.dates h1 {
+  margin: 0;
+  margin-top: 30px;
+}
+
+.dates p {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.tasks {
+  margin-left: 15px;
+}
+
+.tasks ul {
+  list-style: none;
+  padding: 0;
+}
+
+.label--task  {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.label--task input {
+  margin-right: 10px;
+}
+
+.feedback {
+  background-color: rgba(0, 0, 0, 0.2);
+}
